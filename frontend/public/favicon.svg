@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="#0f1629"/>
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)" opacity="0.8"/>
+
+  <!-- Stock chart line -->
+  <polyline
+    points="8,44 18,34 26,38 36,20 44,26 56,12"
+    stroke="url(#lineGrad)"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Dots on chart -->
+  <circle cx="8"  cy="44" r="2.5" fill="#4a9eff"/>
+  <circle cx="36" cy="20" r="3"   fill="#00d4aa"/>
+  <circle cx="56" cy="12" r="3"   fill="#00d4aa"/>
+
+  <!-- Arrow up at end -->
+  <polyline
+    points="50,10 56,12 54,18"
+    stroke="#00d4aa"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Bottom bar indicators -->
+  <rect x="8"  y="52" width="6" height="6" rx="2" fill="#4a9eff" opacity="0.7"/>
+  <rect x="18" y="49" width="6" height="9" rx="2" fill="#00d4aa" opacity="0.7"/>
+  <rect x="28" y="51" width="6" height="7" rx="2" fill="#4a9eff" opacity="0.5"/>
+  <rect x="38" y="48" width="6" height="10" rx="2" fill="#00d4aa" opacity="0.9"/>
+  <rect x="48" y="50" width="6" height="8" rx="2" fill="#4a9eff" opacity="0.6"/>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a2340"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="8" y1="44" x2="56" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4a9eff"/>
+      <stop offset="100%" stop-color="#00d4aa"/>
+    </linearGradient>
+  </defs>
+</svg>
